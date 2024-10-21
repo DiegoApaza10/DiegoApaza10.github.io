@@ -8,6 +8,7 @@ Realizado por
 - Rodriguez Pumacayo Ricardo Alexander
 - Apaza Condori Jhon Anthony
 - Solis Zamata Axel Jhuan
+
 Fecha: 17/10/2024
 
 Etapas del Proyecto

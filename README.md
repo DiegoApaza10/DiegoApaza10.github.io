@@ -17,7 +17,7 @@
 ## Etapas del Proyecto  
 
 ### 1. Introducción  
-El proyecto consiste en desarrollar una aplicación que analice productos alimenticios y brinde información sobre su salubridad. La app almacenará un historial de productos escaneados para evitar repeticiones y será útil para familias, personas con alergias, deportistas, y pacientes con condiciones médicas.
+En la actualidad, los consumidores son cada vez más conscientes de los productos que compran, especialmente en lo que respecta a la salud y la nutrición. Sin embargo, interpretar la información que aparece en las etiquetas de los productos puede ser confuso debido al uso de términos técnicos, aditivos desconocidos o compuestos químicos complejos. Muchas personas desean tomar decisiones informadas, pero a menudo no disponen del tiempo o los conocimientos para analizar adecuadamente estos detalles al momento de realizar sus compras. Por ello, surge la necesidad de una herramienta que proporcione información clara, precisa y personalizada para facilitar estas decisiones. La aplicación propuesta busca empoderar a los consumidores, guiándolos hacia elecciones más saludables y alineadas con sus necesidades y preferencias.
 
 ### 2. Planteamiento del Problema  
 Muchas personas enfrentan dificultades para entender la información nutricional y los ingredientes de los productos. La falta de tiempo y conocimientos sobre alérgenos o aditivos puede afectar decisiones de compra, impactando la salud del consumidor.
@@ -49,9 +49,14 @@ Muchas personas enfrentan dificultades para entender la información nutricional
 ---
 
 ## Funcionalidades  
-- **Escaneo de productos:** La app escaneará códigos de barras, QR o fotos para obtener información nutricional.  
-- **Historial de productos:** Se guardará un registro de productos previamente escaneados para consulta rápida.  
-- **Perfil personalizado:** Los usuarios podrán configurar filtros según alergias, dietas o límites calóricos.
+- **Captura de etiquetas:** La aplicación permitirá al usuario tomar fotos de las etiquetas traseras de productos comestibles.
+- **Interpretación automática:** Analizará los textos e ingredientes utilizando procesamiento de imágenes y reconocimiento de texto (OCR).
+- **Información personalizada:** Brindará información alineada con las preferencias configuradas por el usuario, destacando puntos clave como si el producto es bajo en azúcar o contiene alérgenos.
+- **Alertas y recomendaciones:** Notificará al usuario sobre ingredientes que puedan representar riesgos o que estén prohibidos según regulaciones locales.
+- **Sugerencias de combinación:** Ofrecerá consejos sobre cómo equilibrar la dieta y combinar alimentos de manera efectiva.
+- **Comparación de productos:** Permitirá comparar productos escaneados para que el usuario seleccione la opción más adecuada.
+- **Interfaz intuitiva:** El diseño será simple y directo para asegurar que la experiencia del usuario sea rápida y sin fricciones, ideal para su uso durante compras.
+- **Historial y favoritos:** Los usuarios podrán almacenar productos analizados previamente y generar comparaciones futuras basadas en sus preferencias históricas.
 
 ---
 

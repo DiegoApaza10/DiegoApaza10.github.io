@@ -24,9 +24,9 @@ En la actualidad, los consumidores son cada vez más conscientes de los producto
 Muchas personas enfrentan dificultades para entender la información nutricional y los ingredientes de los productos. La falta de tiempo y conocimientos sobre alérgenos o aditivos puede afectar decisiones de compra, impactando la salud del consumidor.
 
 ### 3. Objetivos  
-Objetivo General: Diseñar una solución tecnológica que facilite la integración de los adultos mayores al uso de computadora de escritorio y portátil, promoviendo una experiencia de usuario accesible e interactiva, adaptada a sus necesidades para reducir la brecha digital y mejorar su calidad de vida.
+**Objetivo General:** Diseñar una solución tecnológica que facilite la integración de los adultos mayores al uso de computadora de escritorio y portátil, promoviendo una experiencia de usuario accesible e interactiva, adaptada a sus necesidades para reducir la brecha digital y mejorar su calidad de vida.
 
-Objetivos Específicos:
+**Objetivos Específicos:**
 - Realizar pruebas de usabilidad con usuarios adultos mayores para evaluar y ajustar la solución tecnológica según sus necesidades y dificultades, garantizando una experiencia intuitiva y satisfactoria.
 - Diseñar ayudas y recursos visuales, como tutoriales interactivos y guías paso a paso, para apoyar a los adultos mayores en la realización de tareas básicas, como la comunicación y la navegación en línea.
 - Asegurar la consistencia en el diseño mediante la utilización de colores, iconos y tipografía que sean fácilmente reconocibles para los adultos mayores, fomentando una experiencia coherente que reduzca la carga cognitiva.

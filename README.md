@@ -1,5 +1,6 @@
 # Proyecto Final IHC - ALEA: Análisis de Etiquetas Alimentarias
-
+# Enlace de Pagina 
+https://diegoapaza10.github.io/
 ## Descripción del Proyecto  
 **Alea** es una aplicación móvil diseñada para analizar productos alimenticios mediante el escaneo de códigos de barras, QR o fotos. La app proporciona información sobre la salud del producto de forma personalizada, facilitando la toma de decisiones saludables. El objetivo es ayudar a personas con dietas específicas, deportistas, familias y personas con condiciones médicas como diabetes.
 

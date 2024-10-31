@@ -51,8 +51,8 @@ Se analizaron aplicaciones como:
 - **Curso Basico de Computacion**: cuenta con una estructura vertical intuitiva y una gama amplia de temas, aunque carece de diferenciación visual clara entre categorías.
 
 ## Referencias
-- HCI y la población adulta mayor, *ScienceDirect*
-- Diseño y evaluación de una interfaz de usuario móvil para adultos mayores, *ScienceDirect*
+- Barcia, B. Q., González, M. M., & Martínez, A. V. (2020, 13 julio). Brecha Digital en Adultos Mayores: Accesibilidad Tecnológica y Redes Sociales. http://www.gigapp.org/ewp/index.php/GIGAPP-EWP/article/view/220
+- LOZANO, D. A. O. (2024). Desempeño del adulto mayor en el uso de nuevas tecnologias en contexto de pandemia. Lima, 2022 (Doctoral dissertation, Universidad Nacional Mayor de San Marcos).
 
 ---
 

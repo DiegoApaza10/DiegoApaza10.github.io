@@ -863,7 +863,7 @@ border: 1px solid #fff;
 
 /* testimonial section */
 .testimonial{
-	background:url(../images/testbg.jpg) no-repeat top center;
+	background:url(../images/entrevista.jpg) no-repeat top center;
 	background-size:cover;
 }
 .testimonial .head_title h2{
@@ -891,7 +891,7 @@ color:#fff;
 .single_testimonial_img p{
     width: 55%;
     margin: 0 auto;
-    font-family: 'OpenSans';
+    font-family: 'Arial';
     font-style: italic;
     margin-bottom: 30px;
 	color:#fff;

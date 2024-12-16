@@ -296,6 +296,66 @@
 						</a>
 					</div><br>
 			<div class="separetor"></div>
+
+
+			<!-- copy box -->
+			<div style="position: relative; font-family: Arial, sans-serif; margin: 20px;">
+			    <style>
+			        .copy-box-container {
+			            position: relative;
+			            border: 1px solid #ccc;
+			            border-radius: 5px;
+			            padding: 15px;
+			            background-color: #f9f9f9;
+			            font-family: monospace;
+			            font-size: 14px;
+			            max-width: 600px;
+			            overflow: auto;
+			        }
+			
+			        .copy-box-btn {
+			            position: absolute;
+			            top: 10px;
+			            right: 10px;
+			            padding: 5px 10px;
+			            font-size: 12px;
+			            background-color: #007BFF;
+			            color: #fff;
+			            border: none;
+			            border-radius: 3px;
+			            cursor: pointer;
+			            transition: background-color 0.3s ease;
+			        }
+			
+			        .copy-box-btn:hover {
+			            background-color: #0056b3;
+			        }
+			    </style>
+			
+			    <div class="copy-box-container">
+			        <button class="copy-box-btn" onclick="copyToClipboard(this)">Copiar</button>
+			        <pre>
+			git clone https://github.com/Ion25/ALEA
+			cd ALEA
+			git checkout feature
+			        </pre>
+			    </div>
+			
+			    <script>
+			        function copyToClipboard(button) {
+			            const codeBlock = button.nextElementSibling.textContent; // Obtener el contenido del <pre>
+			            navigator.clipboard.writeText(codeBlock).then(() => {
+			                button.textContent = "¡Copiado!";
+			                setTimeout(() => {
+			                    button.textContent = "Copiar";
+			                }, 2000);
+			            }).catch(err => {
+			                console.error("Error al copiar: ", err);
+			            });
+			        }
+			    </script>
+			</div>
+
 		</div>
 		
 	</section>

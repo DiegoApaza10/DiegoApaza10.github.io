@@ -1,4 +1,4 @@
-button {
+.button1 {
 	--green: #557F80;
 	font-size: 15px;
 	padding: 0.7em 2.7em;
@@ -15,12 +15,12 @@ button {
 	box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
   }
   
-  button:hover {
+  .button1:hover {
 	color: #115B5B;
 	box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
   }
   
-  button:before {
+  .button1:before {
 	content: "";
 	position: absolute;
 	left: -4em;
@@ -31,6 +31,68 @@ button {
 	background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 0%);
   }
   
-  button:hover:before {
+  .button1:hover:before {
 	transform: translateX(15em);
   }
+
+
+
+
+  /* From Uiverse.io by adamgiebl */ 
+.button2 {
+	border: none;
+	display: block;
+	position: relative;
+	padding: 0.7em 2.4em;
+	font-size: 18px;
+	background: transparent;
+	cursor: pointer;
+	user-select: none;
+	overflow: hidden;
+	color: rgb(255, 255, 255);
+	z-index: 1;
+	font-family: inherit;
+	font-weight: 500;
+  }
+  
+  .button2 span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: -1;
+	border: 4px solid rgb(35, 169, 111);
+  }
+  
+  .button2 span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 8%;
+	height: 500%;
+	background: var(--lightgray);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-60deg);
+	transition: all 0.3s;
+  }
+  
+  .button2:hover span::before {
+	transform: translate(-50%, -50%) rotate(-90deg);
+	width: 100%;
+	background: rgb(255, 255, 255);
+  }
+  
+  .button2:hover {
+	color: rgb(41, 192, 114);
+  }
+  
+  .button2:active span::before {
+	background: #279346;
+  }
+
+
+
+  

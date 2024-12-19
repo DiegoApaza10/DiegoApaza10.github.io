@@ -228,7 +228,11 @@ a:hover{
 }
 
 .scrolldown {
-	padding-top: 24px;
+  
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    
 }
 .sections {
     padding-top: 80px;
@@ -268,7 +272,7 @@ a:hover{
 }
 .banner .scroll_btn {
 	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215, 181 ,94, 0);
-	border: 2px solid #fff;
+	border: 2px solid #2b8f82;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -320,41 +324,58 @@ a:hover{
     margin-top: 15px;
 }
 
-.main_menu_bg{
-	margin-top:0px;
+.main_menu_bg {
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0;
+    width: 100%; /* Ocupa todo el ancho */
+	height: 15%;
+    background-color: white; /* Fondo blanco permanente */
+    z-index: 1000; /* Por encima de otros elementos */
+    margin-top: 0px; /* Sin margen superior */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacar la barra */
+    transition: background-color 0.6s ease; /* Suaviza los cambios */
 }
+
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
-	transition:.6s;
+    background-color: transparent; /* Permite la transparencia inicial */
+    border-color: transparent;
+    transition: background-color 0.6s ease, border-color 0.6s ease; /* Suaviza los cambios */
 }
-.navbar-default .navbar-nav>li>a {
+
+.navbar-default .navbar-nav > li > a {
     color: #777;
     text-transform: uppercase;
     font-size: 14px;
-}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#115B5B;
-}
-.main_menu_bg .navbar {
-    margin-bottom:0px;
+    transition: color 0.3s ease; /* Transición suave en el hover */
 }
 
-.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#50A39D;
-	background-color:transparent;
-	
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #115B5B; /* Color de hover */
 }
 
-/* logo */
-.main_menu_bg a.navbar-brand{
-	color:#115B5B;
-	font-weight:700;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #50A39D;
+    background-color: transparent; /* Fondo transparente para el activo */
 }
-.main_menu_bg a:hover.navbar-brand{
-	color:#50A39D;
-	font-weight:700;
+
+.main_menu_bg a.navbar-brand {
+    color: #115B5B;
+    font-weight: 700;
+    transition: color 0.3s ease; /* Transición suave en el hover */
 }
+
+.main_menu_bg a:hover.navbar-brand {
+    color: #50A39D; /* Cambia el color en el hover */
+}
+
+/* Ajusta el espaciado del contenido principal para evitar que quede oculto */
+body {
+    padding-top: 15px; /* Altura de la barra de navegación */
+}
+
 
 
 
@@ -519,6 +540,9 @@ a:hover{
 }
 .main_steps_content{
 	position:relative;
+	display: flex; /* Activa flexbox */
+	justify-content: space-around; /* Espaciado entre los elementos */ /* Evita que se salten de línea si hay poco espacio */
+	gap: 20px; /* Espaciado entre ítems (opcional) */
 }
 .main_steps_content:after{
     position: absolute;
@@ -1074,3 +1098,30 @@ color:#fff;
 	text-decoration: none;
 
 }
+
+
+.logo img {
+	width: 80%; /* Cambia este valor según el tamaño deseado */
+	height: auto; /* Mantén las proporciones de la imagen */
+}
+
+.logo2 img {
+	width: 10%; /* Ajusta el tamaño */
+	height: auto; /* Mantén proporciones */
+	transition: filter 0.1s ease; /* Transición suave */
+  }
+  
+  .logo2:hover img {
+	filter: brightness(0) invert(1); /* Convierte a blanco */
+  }
+  .logo3 img {
+	width: 50%; /* Ajusta el tamaño */
+	height: auto; /* Mantén proporciones */
+	transition: filter 0.1s ease; /* Transición suave */
+	margin-left: 40%;
+	border: 2px solid black;
+    border-radius: 30px;
+  }
+
+
+  

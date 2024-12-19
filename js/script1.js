@@ -58,3 +58,5 @@ searchInput.addEventListener('blur', function() {
     window.location.href = 'proyecto.html'; // Redirigir a proyecto.html
   }
 });
+
+

@@ -1,0 +1,224 @@
+@charset "UTF-8";
+.contenedor-juego {
+  border: 2px solid #0ca544; /* Color gris claro para el borde */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px; /* Espacio alrededor del contenedor */
+  padding: 15px; /* Espacio interno dentro del contenedor */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar el contenedor */
+}
+
+.logo img {
+  width: 100px; /* Ancho del logo */
+  height: auto; /* Mantiene las proporciones */
+  max-height: 100px; /* Altura máxima si es necesario */
+  object-fit: contain; /* Asegura que la imagen no se deforme */
+}
+
+.logo-juego img {
+  width: 100%; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene las proporciones */
+}
+
+/**********************************
+Variables
+***********************************/
+/**********************************
+Maps
+***********************************/
+/**********************************
+Mixins
+***********************************/
+/**********************************
+Typography
+***********************************/
+p {
+  font-size: 15px;
+  line-height: 16px;
+  line-height: 2rem;
+}
+@media screen and (min-width: 480px) {
+  p {
+    font-size: 0.95em;
+  }
+}
+@media screen and (min-width: 640px) {
+  p {
+    font-size: 1em;
+  }
+}
+
+h1 {
+  font-size: 28px;
+}
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+@media screen and (min-width: 480px) {
+  h2 {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 640px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 1.75em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2em;
+  }
+}
+
+h3 {
+  font-size: 18px;
+}
+@media screen and (min-width: 480px) {
+  h3 {
+    font-size: 1.275em;
+  }
+}
+@media screen and (min-width: 640px) {
+  h3 {
+    font-size: 1.375em;
+  }
+}
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3 {
+    font-size: 1.75em;
+  }
+}
+
+/**********************************
+General
+***********************************/
+body {
+  color: #272727;
+  background: #272729;
+}
+
+.card-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  align-content: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 20px auto;
+  max-width: 280px;
+  position: relative;
+  -webkit-box-shadow: 0px 16px 6px -6px rgba(39, 39, 41, 0.6);
+  -moz-box-shadow: 0px 16px 6px -6px rgba(39, 39, 41, 0.6);
+  box-shadow: 0px 16px 6px -6px rgba(39, 39, 41, 0.6);
+}
+@media (min-width: 375px) {
+  .card-wrapper {
+    margin: 25px auto;
+  }
+}
+@media (min-width: 481px) {
+  .card-wrapper {
+    margin: 50px auto;
+  }
+}
+@media (min-width: 768px) {
+  .card-wrapper {
+    margin: 100px auto;
+    max-width: 310px;
+  }
+}
+@media (min-width: 961px) {
+  .card-wrapper {
+    margin: 200px auto;
+    max-width: 800px;
+  }
+}
+
+.card-body {
+  -ms-flex: 1 0 100%;
+  -webkit-flex: 1 0 100%;
+  flex: 1 0 100%;
+  background: #F2F2F2;
+  padding: 25px 0;
+  border-radius: 20px 20px 0 0;
+}
+.card-body h2,
+.card-body p {
+  padding: 0 25px;
+  margin-bottom: 0;
+}
+@media (min-width: 961px) {
+  .card-body h2,
+  .card-body p {
+    padding: 0 50px;
+  }
+}
+@media (min-width: 961px) {
+  .card-body {
+    -ms-flex: 1 0 60%;
+    -webkit-flex: 1 0 60%;
+    flex: 1 0 60%;
+    padding: 50px 0;
+    border-radius: 20px 0 0 20px;
+  }
+}
+
+.card-image {
+  -ms-flex: 1 0 100%;
+  -webkit-flex: 1 0 100%;
+  flex: 1 0 100%;
+  height: 200px;
+  background: url("/images/juego1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0 0 20px 20px;
+}
+@media (min-width: 961px) {
+  .card-image {
+    -ms-flex: 1 0 40%;
+    -webkit-flex: 1 0 40%;
+    flex: 1 0 40%;
+    height: auto;
+    border-radius: 0 20px 20px 0;
+  }
+}
+
+/*# sourceMappingURL=estilodeljuegocss.map */

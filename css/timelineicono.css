@@ -1,0 +1,7 @@
+
+.number-icon {
+    font-size: 24px; /* Tamaño del número */
+    font-weight: bold;
+    color: #FFD700; /* Color dorado */
+    display: inline-block;
+}

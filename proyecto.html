@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/modal.css" />
 	<link rel="stylesheet" href="css/modal2.css" />
 	<link rel="stylesheet" href="css/galeria.css" />
+	<link rel="stylesheet" href="css/galeria2.css"> 
 </head>
 <body>
 
@@ -105,7 +106,7 @@
 					<h1>Time Line</h1>
 					<div class="separetor"></div>
 				</div>
-				<div class="main_steps_content text-center">
+				<div id="timeline1" class="main_steps_content text-center">
 					<div class="col-md-4">
 						<div class="single_steps wow fadeIn" data-wow-duration="1s">
 							<a href="#prop"><i class="fa fa-home"></i></a>
@@ -129,11 +130,19 @@
 					</div>
 					<div class="col-md-4">
 						<div class="single_steps wow fadeIn" data-wow-duration="2.8s">
+							<a href="#personas"><i class="fa fa-user"></i></a>
+							<h4>Definicion de Persona</h4>
+							<p>Identicacion de personas primarias,secundarias y terciarias</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single_steps wow fadeIn" data-wow-duration="2.8s">
 							<a href="#mockup"><i class="fa fa-star"></i></a>
 							<h4>MockUP</h4>
 							<p> Se diseñaron prototipos visuales para refinar la experiencia de usuario</p>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -144,7 +153,7 @@
 			<div class="row">
 				
 				<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
-					<h2>Propuesta del Proyecto Final</h2>
+					<h1>Propuesta del Proyecto Final</h1>
 					<div class="separetor"></div>
 				</div>
 				<div class="wedo_content_area">
@@ -171,8 +180,7 @@
 							<div class="single_right_text">
 								<h4>Objetivo del Proyecto</h4>
 								<div class="separetor2"></div>
-								<p>Facilitar la comprensión de la información nutricional para que los usuarios identifiquen si los alimentos que consumen son adecuados para una dieta de control de peso, analizando combinaciones de macronutrientes (proteínas, grasas y carbohidratos) según la tabla de composición de alimentos peruanos y promoviendo un control consciente de las calorías consumidas durante el día.
-								</p>
+								<p>Simplificar la información nutricional para identificar alimentos adecuados para el control de peso, analizando combinaciones de macronutrientes  (proteínas, grasas y carbohidratos) según la tabla de alimentos peruanos y promoviendo un control consciente de calorías diarias.</p>
 							</div>
 						</div>
 					</div>
@@ -229,7 +237,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="head_title text-center wow flipInX" data-wow-duration="1s">
-					<h2>Conversacion con el Experto</h2>
+					<h1>Conversacion con el Experto</h1>
 					
 					<p>Primera Interacción con el experto, una nutricionista con conocimientos avanzados en el control de peso y calorias</p>
 				</div>
@@ -285,7 +293,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
-					<h2>Need Findings</h2>
+					<h1>Need Findings</h1>
 					<div class="separetor"></div>
 					<p>Identicacion de usuario y sus necesidades</p><br>
 					<div class="separetor"></div>
@@ -431,7 +439,7 @@
 	
 		
 		</div>
-		<div style="text-align: center;">
+		<div style="text-align: center;margin: auto;">
 			<a href="https://drive.google.com/drive/u/0/folders/1l0p06G5C032WcVCFQINq4ruUVZsr2gOA" >
 				<button class="button1">
 					Enlace al Documento Completo
@@ -561,6 +569,16 @@
 		
 	  </div>
 	  -->
+	  <br><h1 id="personas" class="titulo">Definición de Personas</h1><br>
+	  <div style="text-align: center;">
+		<iframe 
+		  src="https://drive.google.com/file/d/17YZwunucRFIvduR8FtNS-rH3gkVeQLmh/preview"
+		  width="640" 
+		  height="480" 
+		  style="border: none;">
+		</iframe>
+	  </div>
+
 	  <br><h1 id="mockup" class="titulo">MockUP</h1><br>
 
 	  <div style="text-align: center;">
@@ -571,61 +589,22 @@
         allow="autoplay"
         style="border: none;">
 		</iframe>
-  
-		
-	  
-	  </div>
-
-	<div class="container-galeria">
-		<div class="box">
-			<img src="images/pri.jpg">
-			
-		  </div>
-		  <div class="box">
-			<img src="images/seg.jpg">
-		
-		  </div>
-		  <div class="box">
-			<img src="images/terc.jpg">
-			
-		  </div>
-		  <div class="box">
-			<img src="images/cuarto.jpg">
-		  </div>
-		  <div class="box">
-			<img src="images/quinto.jpg">
-		  </div>
 	</div>
 
-	<div class="container-galeria">
-		<div class="box">
-			<img src="images/sexto.jpg">
-			
-		  </div>
-		  <div class="box">
-			<img src="images/seti.jpg">
+	<section class="contenido-galeria">
+		<div class="slider">
+			<img id="slide-1" src="images/pri.jpg">
+			<img id="slide-2" src="images/seg.jpg">
+			<img id="slide-3" src="https://via.placeholder.com/800x450">
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+		</div>
+	</section>
+
 		
-		  </div>
-		  <div class="box">
-			<img src="images/oct.jpg">
-			
-		  </div>
-		  <div class="box">
-			<img src="images/nov.jpg">
-		  </div>
-		  <div class="box">
-			<img src="images/dec.jpg">
-		  </div>
-	</div>
-	<div class="container-galeria">
-		<div class="box">
-			<img src="images/once.jpg">
-			
-		  </div>
-		  <div class="box">
-			<img src="images/12.jpg">
-		  </div>
-	</div>
 
 
 	
@@ -639,8 +618,8 @@
 
 	<!-- STRAT SCROLL TO TOP -->
 	
-	<div class="scrollup">
-		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	<div href="#mockup" class="scrollup">
+		<a ><i class="fa fa-chevron-up"></i></a>
 	</div>
 	
 	
@@ -653,6 +632,7 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/modal.js"></script>
 	<script type="text/javascript" src="js/script1.js"></script>
+	<script type="text/javascript" src="js/galeriascript.js"></script>
 	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
 	
 	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
